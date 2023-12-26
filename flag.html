@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .fullsize {
+        height: 100vh;
+        width: 100vw;
+        margin: auto;
+      }
+      .safron {
+        height: 33.33%;
+        width: 100%;
+        background-color: #ff9933;
+      }
+      .white {
+        height: 33.33%;
+        width: 100%;
+        background-color: #ffffff;
+      }
+      .green {
+        height: 33.33%;
+        width: 100%;
+        background-color: #138808;
+      }
+      .chakra {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body onclick="myFunction()">
+    <div class="fullsize">
+      <div class="safron"></div>
+      <div class="white">
+        <div class="chakra">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/500px-Ashoka_Chakra.svg.png?20230804232816"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="green"></div>
+    </div>
+    <script>
+      function myFunction() {
+        var audio = new Audio('Jana Gana Mana (HD) - National Anthem With Lyrics - Best Patriotic Song.mp3'); 
+        audio.play();
+      }
+    </script>
+  </body>
+</html>
